@@ -1,0 +1,49 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.game-container {
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.board {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.cell {
+    
+
+    width: 100px;
+    height: 100px;
+    background-color:yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: #0056b3;
+}
